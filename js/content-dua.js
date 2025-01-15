@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       card.innerHTML = `
       <div class="flex-1 bg-gray-100 p-4 text-center">
       <img data-url="${path}" src="${item.thumbnail}" alt="${item.title}" class="w-full h-36 object-cover mb-2">
-      <p class="text-sm">${item.title}</p>
+      <p class="text-sm">${item.title} apakah ini?</p>
       </div>
       `;
       
